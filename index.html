@@ -1,0 +1,189 @@
+<!--Pra criar um código base de HTML CSS basta digitar ! e apertar enter ou selecionar a !-->
+<!DOCTYPE html>
+<!--Na teg <html> tem um parâmetro chamado dengue que é para definir o idioma Que o site vai ser-->
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Aqui onde é colocado o fivecon o ícone que mostra como se fosse uma Mini logo do seu site no canto superior esquerdo da aba-->
+    <!--Profile com funcionar em vários navegadores diferentes é recomendável que a imagem seja no formato ICO-->
+    <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
+
+    <!--O título fica na área superior da página do site-->
+    <title>Meu site</title>
+</head>
+
+<!--<body> e onde fica o conteúdo do site-->
+<body>
+    <!--<h1> Tegs usadas para títulos contendo h2, h3, h4 etc...-->
+    <h1>hi, my name is Gabriel</h1>
+    <h2>that is my frist web site</h2>
+
+    <!--tag <p> Usada para criação de parágrafos e escrita-->
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quidem quam perspiciatis odio 
+        <!--A teg <br> serve pra fazer a quebra de linhas de texto--> <br> 
+        quos est molestiae rerum id inventore assumenda aliquid 
+        <!--Se você quiser colocar os Caracteres especiais das tag por exemplo <> você precisa colocar neste formato no HTML pra que ela apareça sem ser no formato de Marcação EX((&lt;p&gt;))--> &lt;p&gt; libero, nobis reiciendis debitis quibusdam at delectus. Doloremque, ea.
+    </p>
+    <p>Vamos adicionar alguns símbolos especiais: 
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        <!--Delta minúsculo-->
+        &delta;
+        <!--Delta maiúsculo-->
+        &Delta;
+    </p>
+    <p>Vamos adicionar alguns emojis:
+        <!--No caso dos emojis sempre vão começar com &#x e depois que vem o codigo do emojis-->
+        &#x1F596;
+        &#x1F913;
+    </p>
+    <h1>Testando cargas de imagens</h1>
+    <p>Abaixo você vai ver uma das imagens da nossa pasta</p>
+    <img src="imagens/logo/logohtml-200.png" alt="logo html5">
+    <p>Também podemos carregar imagens que estão em subpastas</p>
+    <img src="imagens/logo/logocss-200.png" alt="logo css3">
+    <p>Também podemos carregar imagens externas</p>
+    <img src="https://static-00.iconduck.com/assets.00/javascript-js-square-icon-256x256-ys46nkqd.png" alt="logo javascript">
+
+    <h1>Formatação de texto</h1>
+    <h2>Negrito / destaque</h2>
+    <p>Lorem ipsum dolor sit amet 
+    <!--a tag <b> é uma tag não semântica para se usar em formatação de texto do HTML--> <b>consectetur,</b> 
+    adipisicing elit. Nisi, nostrum ullam est amet qui rem fugit harum! Placeat aperiam nemo, 
+    <!--ja a tag <strong> ela e semantica ela da o sentido de destaque diferente da tag <b> que apenas da forma--> <strong> aut quam a hic, id,</strong> 
+    officiis cupiditate at odio facilis.</p>
+    <H2>italico / enfaze</H2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, 
+        <!--a teg <i> Apenas dá a forma Itálico--> <i>adipisicing elit</i>. 
+        Sapiente libero suscipit totam voluptatibus, vitae iste quasi quos assumenda nihil minus consequuntur, minima, 
+        <!-- a tag <em> Ela dá o sentido e a forma de ênfase ou Itálico --> <em>expedita ut</em> 
+        fugiat dolores repudiandae quo? Nulla, reiciendis.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime libero tenetur deleniti quos explicabo 
+        <!--a tag <mark> ela serve com um marcador de texto pouco usado--> <mark>ut veniam esse.</mark> Aut molestiae nostrum temporibus laudantium fugiat repellat provident asperiores, iure tempora veritatis culpa?</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. In temporibus et doloremque mollitia cum, quas porro <small>doloribus quod quis</small> nobis expedita quia accusamus saepe modi eius facere minima, laudantium est!    
+    </p>
+    <p>
+        Lorem ipsum dolor sit <!-- a tag <ins> ela se semantica para sublinhado--> <ins>amet consectetur adipisicing</ins> elit. Id quasi doloribus nostrum odio eveniet itaque corrupti, magnam, sunt blanditiis quia minima dolore accusantium veniam doloremque perferendis. Dolorem consequuntur dolorum facere!
+    </p>
+
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>
+        <pre>
+            <code>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Deserunt quod quidem ducimus minima, repellat labore, reiciendis praesentium accusantium, dolor recusandae aperiam nihil. 
+        Dicta fugit nobis a corrupti 
+        reiciendis itaque voluptatibus!
+            </code>
+        </pre>
+    </p>
+    <H2>
+    citação 
+    </H2>
+    <p>
+        <!-- a tag <q> Essa tag dá sentido há uma citação diferente de apenas colocar ""-->
+        <q>como diria o pai de um amigo: um computador e um burro muito rapido.</q>
+    </p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_A_Beginner_s_Tutorial/63AdCgAAQBAJ?hl=pt-BR&gbpv=0">Coremans, C. (2015). HTML: A Beginner's Tutorial. Canadá: Brainy Software Inc.</blockquote>
+    <h2> abreviação</h2>
+    <p>
+        estou aprendendo  <abbr title="Linguagem de Marcação de Hipertexto">html</abbr> e <abbr title="Cascading Style Sheets (Folha de Estilo em Cascatas)">css</abbr> e estou gostando
+    </p>
+    <h2>twxto ivertido</h2>
+    <p><bdo dir="rtl">estou aprendendo a criar coisas em html</bdo></p>
+    <h1>trabalhando com listas</h1>
+    <h2>listas ordenadas</h2>
+    <ol type="i"> <!--Seguintes tipos de lista ordenada 1, A, a, I, i, -->
+        <li>acordar</li>
+        <li>tomar cafe</li>
+        <li>escovar os diferentes</li>
+        <li>lavar as roupas</li>
+        <li>acordar</li>
+        <li>tomar cafe</li>
+        <li>escovar os diferentes</li>
+        <li>lavar as roupas</li>
+    </ol>
+    <h2>listas nao ordenadas</h2>
+    <ul type="square"> <!-- disc, circo, square-->
+        <li>acordar</li>
+        <li>tomar cafe</li>
+        <li>escovar os diferentes</li>
+        <li>lavar as roupas</li>
+        <li>acordar</li>
+        <li>tomar cafe</li>
+        <li>escovar os diferentes</li>
+        <li>lavar as roupas</li>
+    </ul>
+     <h1>Juntando listas versão 1.0</h1>
+     <ol>
+        <li>inportante</li>
+        <ol type="A">
+            <li>fsdfsdf</li>
+            <li>fsdfsdf</li>
+            <li>fsdfsdf</li>
+        </ol>
+        <li>macabro</li>
+        <ol type="A" start="4"> <!-- start="4" seve para fazer continuacão numerica da lisrta-->
+            <li>fsdfsdf</li>
+            <li>fsdfsdf</li>
+            <li>fsdfsdf</li>
+        </ol>
+     </ol>
+     <h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam harum maiores, dolore ad minima alias est repellendus natus maxime nobis, pariatur, exercitationem voluptatibus quibusdam dolorem eum! Tempora, magni voluptates! Quam.</h2>
+     <ol>
+        <li>dfgdfgdfg</li>
+        <ul>
+            <li>gdfgdfgdfg</li>
+            <ul>
+                fghfghfgh
+            </ul>
+            <ul>
+                fghfghfgh
+            </ul>
+            <li>gdfgdfgdfg</li>
+            <li>gdfgdfgdfg</li>
+        </ul>
+        <li>dfgdfgdfg</li>
+        <ul>
+            <li>gdfgdfgdfg</li>
+            <li>gdfgdfgdfg</li>
+            <li>gdfgdfgdfg</li>
+        </ul>
+        <li>dfgdfgdfg</li>
+        <ul>
+            <li>gdfgdfgdfg</li>
+            <li>gdfgdfgdfg</li>
+            <li>gdfgdfgdfg</li>
+        </ul>
+     </ol>
+     <h2>lista de definição</h2> <!--Ajuda a aumentar a busca na navegação deixando seu site <dl> <dd> -->
+     <dl>
+        <dt>sdfwerzxc</dt>
+        <dd>jbniuuri</dd>
+        <dt>kfjfjhfgkij</dt>
+        <dd>dfgdfgdfg</dd>
+        <dt>sdfwerzxc</dt>
+        <dd>jbniuuri</dd>
+        <dt>kfjfjhfgkij</dt>
+        <dd>dfgdfgdfg</dd>
+     </dl>
+     <h1>usando likes externos</h1>
+     <p>voce pode acessar meu <a href="https://www.youtube.com/watch?v=fxgvbUBx6UM&list=RDMMfxgvbUBx6UM&start_radio=1&ab_channel=DAEGHO" target="_blank" rel="external"> <!--rel="external" serve para falar ao navegador que esse e um link externo dando sentido SEO-->videos publicos no youtube</a></p> <!--target="_blank" serve para direcionar um link externo abrindo uma sugunda aba-->
+     <p>voce tabem pode visitar <a href="https://yodayo.com/1/users/497a2193-b2b9-45b9-85d5-c9342ccc912d/" target="_blank" rel="external">meuperfil no yodayo</a></p>
+     <h2>usando links internos</h2>
+     <p>essa a premeira pagina do site. se voce quise vode pode acessar <a href="pag01.html" rel="next" target="_self"> <!--target="_self" serve para fala ao navegador que esse linke interno a par sua propria pagina dando sentido SEO-->segunda pagina por esse link</a></p>
+     <p>voce tambem pode acessar nossa pagina de <a href="noticias/pag02.html" rel="next"  target="_self">noticias</a></p>
+</body>
+</html>
